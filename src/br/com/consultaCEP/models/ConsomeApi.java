@@ -16,7 +16,7 @@ public class ConsomeApi {
         return json;
     }
 
-    public Endereco busca(String key) throws IOException, InterruptedException {
+    public Endereco buscacep2(String key) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://viacep.com.br/ws/" + key + "/json/"))
