@@ -39,9 +39,9 @@ public class Main {
 
         System.out.println(enderecoList);
 
-        FileWriter escreve = new FileWriter("enderecos.json");
-        escreve.write(gson.toJson(enderecoList));
-        escreve.close();
+        FileWriter escreve222 = new FileWriter("enderecos.json");
+        escreve222.write(gson.toJson(enderecoList));
+        escreve222.close();
 
 
 
